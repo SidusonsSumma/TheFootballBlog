@@ -73,7 +73,7 @@ th:hover{
 .FeaturedThumbnail{
     width: 852px;
     height: 480px;
-    background-image: url(/TheFootballBlog/Images/Article_1_The_Way_Forward.JPG);
+    background-image: url(/Users/andrewma/Desktop/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
     background-size: 852px 480px;
     background-attachment: scroll;
     position: relative;
@@ -106,4 +106,119 @@ th:hover{
 .ContentsTitle{
     font-size: 30px;
     color: #62B6B7;
+}
+
+/*Media Query*/
+
+@media (max-width: 992px){
+    hr{
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 5px;
+        border-color: #EEEEEE;
+    }
+    
+    p{
+        font-family: Georgia;
+    }
+    
+    h1{
+        font-family: Georgia;
+    }
+    
+    h2{
+        font-family: Georgia;
+    }
+    
+    h3{
+        font-family: Georgia;
+    }
+    
+    th{
+        font-family: Georgia;
+    }
+    
+    td{
+        font-family: Georgia;
+    }
+    
+    /*Classes*/
+    
+    .main-header{
+        font-family: Georgia;
+        font-size: 24px;
+        color: #CBEDD5;
+        text-shadow: 2px 2px 2px #000000
+    }
+    
+    th:hover{
+        -webkit-filter: brightness(80%);
+    }
+    .NavItem{
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+        margin: 10px 10%;
+        color: #CBEDD5;
+    }
+    .HeadNav{
+        width: 100%;
+        margin: 0;
+        background-color: #439A97;
+        text-align: center;
+    }
+    .NavItem:hover{
+        -webkit-filter: brightness(80%);
+    }
+    .NavHome{
+        font-size: 24px;
+        font-weight: bold;
+        display: inline-block;
+        margin: 10px 100px;
+        color: #CBEDD5;
+        text-decoration: none;
+    }
+    .NavHome:hover{
+        -webkit-filter: brightness(80%);
+    }
+    .FeaturedThumbnail{
+        width: 50%;
+        background-image: url(/Users/andrewma/Desktop/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: relative;
+    }
+    .FeaturedThumbnail:hover{
+        -webkit-filter: brightness(80%);
+        transform: scale(0.99);
+    }
+    .FeaturedText{
+        position: relative;
+        top: 80%;
+        left: auto;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .ArticleContents{
+        margin-left: 10%;
+    }
+    .ContentsItem{
+        color: #62B6B7;
+        display: block;
+        margin-left: -40px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .ContentsItem:hover{
+        -webkit-filter: brightness(80%);
+    }
+    .ContentsTitle{
+        font-size: 30px;
+        color: #62B6B7;
+    }
+    div{
+        margin-left: 10%;
+        max-width: 80%;
+    }
 }
