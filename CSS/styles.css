@@ -73,7 +73,7 @@ th:hover{
 .FeaturedThumbnail{
     width: 852px;
     height: 480px;
-    background-image: url(/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
+    background-image: url(Images/Article_1_The_Way_Forward.JPG);
     background-size: 852px 480px;
     background-attachment: scroll;
     position: relative;
@@ -183,7 +183,7 @@ th:hover{
     }
     .FeaturedThumbnail{
         width: 50%;
-        background-image: url(/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
+        background-image: url(Images/Article_1_The_Way_Forward.JPG);
         background-size: 100% 100%;
         background-attachment: scroll;
         position: relative;
