@@ -7,27 +7,7 @@ hr{
     border-color: #EEEEEE;
 }
 
-p{
-    font-family: Georgia;
-}
-
-h1{
-    font-family: Georgia;
-}
-
-h2{
-    font-family: Georgia;
-}
-
-h3{
-    font-family: Georgia;
-}
-
-th{
-    font-family: Georgia;
-}
-
-td{
+p, h1, h2, h3, th, td{
     font-family: Georgia;
 }
 
@@ -71,27 +51,29 @@ th:hover{
     -webkit-filter: brightness(80%);
 }
 .FeaturedThumbnail{
-    width: 852px;
-    height: 480px;
-    background-image: url(Images/Article_1_The_Way_Forward.JPG);
-    background-size: 852px 480px;
+    width: 100%;
+    height: 350px;
+    background-image: url(/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
+    background-size: 100%;
     background-attachment: scroll;
     position: relative;
+    display: inline-block;
 }
 .FeaturedThumbnail:hover{
     -webkit-filter: brightness(80%);
     transform: scale(0.99);
 }
 .FeaturedText{
-    position: absolute;
-    bottom: 10px;
-    left: 100px;
+    position: relative;
+    top: 70%;
+    left: auto;
+    margin: 0 10%;
     font-size: 36px;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
 .ArticleContents{
-    margin-left: 200px;
+    margin-left: 10%;
 }
 .ContentsItem{
     color: #62B6B7;
@@ -107,6 +89,10 @@ th:hover{
     font-size: 30px;
     color: #62B6B7;
 }
+div{
+    margin-left: 20%;
+    max-width: 60%;
+}
 
 /*Media Query*/
 
@@ -116,30 +102,6 @@ th:hover{
         border-top-style: dotted;
         border-width: 5px;
         border-color: #EEEEEE;
-    }
-    
-    p{
-        font-family: Georgia;
-    }
-    
-    h1{
-        font-family: Georgia;
-    }
-    
-    h2{
-        font-family: Georgia;
-    }
-    
-    h3{
-        font-family: Georgia;
-    }
-    
-    th{
-        font-family: Georgia;
-    }
-    
-    td{
-        font-family: Georgia;
     }
     
     /*Classes*/
@@ -182,8 +144,8 @@ th:hover{
         -webkit-filter: brightness(80%);
     }
     .FeaturedThumbnail{
-        width: 50%;
-        background-image: url(Images/Article_1_The_Way_Forward.JPG);
+        width: 100%;
+        background-image: url(/The_Football_Blog/Images/Article_1_The_Way_Forward.JPG);
         background-size: 100% 100%;
         background-attachment: scroll;
         position: relative;
@@ -200,9 +162,6 @@ th:hover{
         color: white;
         text-shadow: 1px 1px 1px black;
     }
-    .ArticleContents{
-        margin-left: 10%;
-    }
     .ContentsItem{
         color: #62B6B7;
         display: block;
@@ -218,7 +177,7 @@ th:hover{
         color: #62B6B7;
     }
     div{
-        margin-left: 10%;
-        max-width: 80%;
+        margin-left: 20%;
+        max-width: 60%;
     }
 }
