@@ -180,4 +180,12 @@ div{
         margin-left: 20%;
         max-width: 60%;
     }
+    .PageLinkSection{
+            width: 100%;
+            border-left: solid black 1px;
+            border-right: solid black 1px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+    }
 }
